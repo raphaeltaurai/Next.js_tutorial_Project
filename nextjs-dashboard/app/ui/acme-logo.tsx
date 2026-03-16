@@ -1,13 +1,13 @@
-import { GlobeAltIcon } from '@heroicons/react/24/outline';
-import { lusitana } from '@/app/ui/fonts';
+import { HandRaisedIcon } from '@heroicons/react/24/outline';
+import { playfairDisplay } from '@/app/ui/fonts';
 
-export default function AcmeLogo() {
+export default function HavenLogo() {
   return (
     <div
-      className={`${lusitana.className} flex flex-row items-center leading-none text-white`}
+      className={`${playfairDisplay.className} flex flex-row items-center leading-none text-white`}
     >
-      <GlobeAltIcon className="h-12 w-12 rotate-[15deg]" />
-      <p className="text-[44px]">Acme</p>
+      <HandRaisedIcon className="h-12 w-12 rotate-[15deg]" />
+      <p className="text-[32px]">Handcrafted Haven</p>
     </div>
   );
 }

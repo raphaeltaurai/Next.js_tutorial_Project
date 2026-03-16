@@ -1,4 +1,4 @@
-import { Inter, Lusitana } from 'next/font/google';
+import { Lato, Playfair_Display } from 'next/font/google';
  
-export const inter = Inter({ subsets: ['latin'] });
-export const lusitana = Lusitana({ subsets: ['latin'], weight: ['400', '700'] });
+export const lato = Lato({ subsets: ['latin'], weight: ['400', '700'] });
+export const playfairDisplay = Playfair_Display({ subsets: ['latin'], weight: ['400', '700'] });
