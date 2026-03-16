@@ -6,8 +6,8 @@ export default function HavenLogo() {
     <div
       className={`${playfairDisplay.className} flex flex-row items-center leading-none text-white`}
     >
-      <HandRaisedIcon className="h-12 w-12 rotate-[15deg]" />
-      <p className="text-[32px]">Handcrafted Haven</p>
+      <HandRaisedIcon className="h-10 w-10 shrink-0 rotate-[15deg]" />
+      <p className="text-[20px] md:text-[32px]">Handcrafted Haven</p>
     </div>
   );
 }

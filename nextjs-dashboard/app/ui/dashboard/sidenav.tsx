@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import NavLinks from '@/app/ui/dashboard/nav-links';
-import HavenLogo from '@/app/ui/acme-logo';
+import HavenLogo from '@/app/ui/haven-logo';
 import { PowerIcon } from '@heroicons/react/24/outline';
 
 export default function SideNav() {
@@ -10,7 +10,7 @@ export default function SideNav() {
         className="mb-2 flex h-20 items-end justify-start rounded-md bg-amber-700 p-4 md:h-40"
         href="/"
       >
-        <div className="w-32 text-white md:w-40">
+        <div className="w-40 text-white md:w-56">
           <HavenLogo />
         </div>
       </Link>
